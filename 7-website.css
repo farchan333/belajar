@@ -1,0 +1,73 @@
+*  {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font:15px/20px arial, sans-serif;
+    background-color: whitesmoke;
+    background-image: url("https://th.bing.com/th/id/OIP.S1swJD1jWBzO-5gsoW5dcAHaHa?w=179&h=180&c=7&r=0&o=5&dpr=1.38&pid=1.7");
+    color:#333
+}
+.container{
+    width: 800px;
+    margin: auto;
+    background-color: white;
+}
+.header{
+    padding: 10px;
+}
+.header .judul{
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+.header ul li {
+    margin-top: 20px;
+    display: inline-block;
+}
+.header a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+    padding: 10px;
+    background-color: red;
+}
+.header a:hover{
+    background-color: whitesmoke;
+    color: red;
+    transition-duration: 0.40s;
+}
+
+.hero{
+    height: 400px;
+    background-image: url("img/hero.webp");
+    background-size: cover;
+    background-position: 0 -60px;
+    border-top: 5px solid red;
+    border-bottom: 5px solid lightskyblue;
+}
+.conten{
+    padding: 20px;
+}
+.conten a{
+    text-decoration: none;
+}
+.conten h2{
+    font-size: 28px;
+    font-weight: bold;
+}
+.conten .penulis{
+    font-size: 11px;
+    margin-top: 0;
+}
+.conten p{
+    margin-bottom: 20px;
+    text-align: justify;
+    font-size: 16px;
+}
+.footer {
+    background-color: darkslategrey;
+    padding:12px;
+    text-align: center;
+    color: whitesmoke;
+}
